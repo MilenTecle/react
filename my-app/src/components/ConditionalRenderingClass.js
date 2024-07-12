@@ -5,15 +5,15 @@ export class ConditionalRenderingClass extends Component {
       super(props)
     
       this.state = {
-         isloaded: true,
-         isloggedIn: true
+         isLoaded: true,
+         isLoggedIn: true
       }
     }
   render() {
     return (
       <div>
-        <h1>{this.state.isloaded ? 'Data loaded!' : 'Loading...'}</h1>
-        {this.state.isloggedIn ? (
+        <h1>{this.state.isLoaded ? 'Data loaded!' : 'Loading...'}</h1>
+        {this.state.isLoggedIn ? (
             <div>
                 <p>Welcome to the site! Please complete the steps below</p>
                 <ol>
