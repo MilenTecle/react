@@ -1,9 +1,9 @@
 import "./App.css";
-import Clock from "./components/Clock";
+import LifeCyclesCWU from "./components/LifeCyclesCWU"; 
 
 function App() {
   return <div className="App">
-      <Clock />
+      <LifeCyclesCWU/>
     </div>;
 }
 
