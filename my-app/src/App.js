@@ -1,9 +1,10 @@
 import "./App.css";
-import SearchBar from "./components/SearchBar"; 
+import UseStateWithArrays from "./components/UseStateWithArrays";
+
 
 function App() {
   return <div className="App">
-      <SearchBar />
+      <UseStateWithArrays/>
     </div>;
 }
 
